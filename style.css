@@ -1,0 +1,99 @@
+ul {
+    list-style-type: none;
+        
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: arial;
+}
+
+#navbar li {
+    display: inline;
+    float: right;
+    padding: 8px; 
+    
+}
+
+#logo {
+    align-items: center;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+#srchbtn {
+    width: 590px;
+    height: 50px;
+    border-radius: 25em;    
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;        
+}
+
+.buttons {
+    
+    border: none;
+}
+
+#label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    font-family: arial;
+    font-size: 12px;
+}
+
+#language {
+    color: blue;
+}
+
+.buttons {
+    display: inline;    
+}
+
+#foot ul {
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+}
+
+#foot li a {
+    display: inline;
+    padding: 12px;
+    color: grey;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;   
+}
